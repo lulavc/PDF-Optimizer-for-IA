@@ -28,9 +28,7 @@ The system is built with a modular architecture:
 The system implements sophisticated mathematical models:
 
 1. **Token Optimization**: Formalized as entropy minimization problem
-   ```## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. See the CONTRIBUTING.md file for guidelines. 
+   ```
    min H(T|S) = -∑ p(s) ∑ p(t|s) log p(t|s)
    ```
 
