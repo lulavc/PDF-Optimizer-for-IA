@@ -12,28 +12,6 @@ A sophisticated system for optimizing PDFs for AI models, with advanced token op
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/pdf-compression-for-ai.git
-   cd pdf-compression-for-ai
-   ```
-
-2. Create and activate a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-   Or use the dependency checker:
-   ```bash
-   ./check_dependencies.py
-   ```
-
 ## Usage
 
 ### Quick Start
@@ -118,61 +96,6 @@ python run_advanced_gui.py --config example_config.yaml
 
 You can also load configuration files from within the GUI using the "Load Configuration" button.
 
-### Sample PDF Generator
-
-For testing purposes, a sample PDF generator is included:
-
-```bash
-./generate_sample_pdf.py
-```
-
-This will create a sample PDF with various content types to test different compression techniques.
-
-Command-line options:
-- `--output FILE`: Output PDF file path (default: sample.pdf)
-- `--pages N`: Number of pages to generate (default: 5)
-- `--complexity {simple,medium,complex}`: Complexity of the generated content (default: medium)
-- `--seed N`: Random seed for reproducibility
-
-Examples:
-
-```bash
-# Generate a simple 3-page PDF
-./generate_sample_pdf.py --output simple.pdf --pages 3 --complexity simple
-
-# Generate a complex 10-page PDF
-./generate_sample_pdf.py --output complex.pdf --pages 10 --complexity complex
-
-# Generate a reproducible PDF using a seed
-./generate_sample_pdf.py --output reproducible.pdf --seed 42
-```
-
-### Running Tests
-
-To run tests with detailed status updates:
-
-```bash
-# Run all tests
-python run_tests.py
-
-# Run specific test file
-python run_tests.py --test-file test_integration.py
-
-# Run specific test class
-python run_tests.py --test-file test_integration.py --test-class TestPDFOptimizer
-
-# Run specific test method
-python run_tests.py --test-file test_integration.py --test-class TestPDFOptimizer --test-method test_document_optimization
-
-# Run with additional options
-python run_tests.py --verbose --no-capture --log-level DEBUG
-```
-
-Or use the provided shell script for integration tests:
-
-```bash
-./run_integration_tests.sh
-```
 
 ## Architecture
 
