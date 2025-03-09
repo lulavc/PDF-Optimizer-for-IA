@@ -1,0 +1,40 @@
+# Core dependencies
+PyMuPDF==1.23.8
+PyPDF2>=2.0.0
+numpy>=1.21.0
+torch>=1.9.0
+transformers>=4.10.0
+nltk>=3.6.0
+scikit-learn>=0.24.2
+scipy==1.11.4
+
+# UI dependencies
+tk>=0.1.0  # Python interface to Tcl/Tk
+pillow>=8.3.0  # Image processing
+matplotlib>=3.4.0  # Plotting and visualization
+networkx>=2.6.0  # Graph visualization for technique interactions
+
+# NLP and ML dependencies
+tqdm>=4.62.0  # Progress bars
+pandas>=1.3.0  # Data manipulation
+spacy>=3.1.0  # NLP processing
+sentence-transformers>=2.2.0  # Semantic embeddings
+python-Levenshtein>=0.12.2  # String similarity
+
+# Testing dependencies
+pytest==7.4.3
+pytest-cov>=4.1.0  # Coverage reporting
+pytest-xdist>=3.3.1  # Parallel test execution
+reportlab>=3.6.0  # PDF generation for testing
+lorem>=0.1.1  # Lorem ipsum text generation for testing
+
+# Development dependencies
+black==23.12.1  # Code formatting
+flake8==7.0.0  # Linting
+mypy==1.8.0  # Type checking
+
+# Optional dependencies for advanced features
+colorama>=0.4.4  # Colored terminal output
+jsonschema>=4.0.0  # JSON validation
+pyyaml>=6.0  # YAML parsing for configuration
+py-cpuinfo>=9.0.0  # CPU information detection 
