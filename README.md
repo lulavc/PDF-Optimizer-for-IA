@@ -1,4 +1,4 @@
-PDF Compression for AI
+# PDF Compression for AI
 
 A sophisticated system for optimizing PDFs for AI models, with advanced token optimization, multi-objective compression techniques, and detailed statistics tracking.
 
